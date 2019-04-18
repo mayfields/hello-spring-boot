@@ -30,11 +30,6 @@ public class IndexController {
         p2.setAge(24);
         people.add(p2);
 
-        PersonBean p3 = new PersonBean();
-        p3.setName("赵六");
-        p3.setAge(25);
-        people.add(p3);
-
         model.addAttribute("person", person);
         model.addAttribute("people", people);
 
